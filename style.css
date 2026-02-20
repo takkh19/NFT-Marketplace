@@ -1,0 +1,157 @@
+:root {
+    --primary-color:#FFFFFF;
+    --secondary-color:#A259FF;
+}
+
+body {
+    background-color: #2b2b2b;
+    color:var(--primary-color); 
+    margin:0;
+    font-family:'Work Sans', sans-serif;
+
+}
+/*small tags*/
+
+.d-flex{
+    display:flex;
+}
+.j-center {
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.all-caps {
+  text-transform: capitalize;
+}
+.direction-column{
+    flex-direction: column;
+}
+
+
+/*header*/
+
+header {
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 243.41px;
+    height: 32px;
+}
+.sign-up {
+        background-color: var(--secondary-color);
+        padding:19px 30px;
+        border-radius: 20px;
+        gap:12px;
+        width: fit-content;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        & span {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: var(--primary-color);
+            font-family:'Work Sans', sans-serif;
+            width: fit-content;
+            height: 22px;
+        }
+
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap:10px;
+    & li {
+        padding:12px 20px;
+        font-weight: 600;
+        size: 16px;
+
+    }
+        & a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+    
+}
+
+/* introduction */
+
+.introduction {
+    padding: 80px 195px;
+    gap: 30px;
+
+}
+
+.content-wrapper{
+    gap: 30px;
+    width: 510px;
+    height: 544px;
+}
+
+.text-wrapper{
+    gap:20px;
+    & h1{
+       font-size:67px;
+       font-weight: 600;
+       line-height: 110%;
+       margin:0;
+       text-transform: capitalize;
+
+    }
+    & p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+    }
+}
+& .rocket {
+        background-color: var(--secondary-color);
+        padding:20px 50px;
+        border-radius: 20px;
+        gap:12px;
+        height: 60px;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        & span {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: var(--primary-color);
+            font-family:'Work Sans', sans-serif;
+            
+        }
+    }    
+
+.gif-wrapper {
+    width: fit-content;
+    height: 510px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+.numbers-wrapper{
+    gap:30px
+}
+
+.numbers {
+    & a {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 140%;
+        font-family: space mono;
+    }
+    & span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 160%;
+    }
+}
